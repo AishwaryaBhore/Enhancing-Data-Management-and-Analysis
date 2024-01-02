@@ -1,0 +1,18 @@
+Sub Run_File()
+    Dim PythonExe As String
+    Dim cmdCommand As String
+    Dim scriptPath As String
+
+    ' Specify the path to the directory where your Python script is located
+    scriptPath = "E:\database\YoanDB\scripts\"
+
+    ' Change the working directory to the scriptPath
+    ChDir scriptPath
+
+    ' Specify the correct paths for Python executable and script
+    PythonExe = """C:\Program Files\Python312\python.exe"""
+    cmdCommand = scriptPath & "mongodb_script_copy.py"
+
+    ' Run the Python script using Shell function
+    Call Shell("cmd /k " & cmdCommand, vbNormalFocus)
+End Sub
