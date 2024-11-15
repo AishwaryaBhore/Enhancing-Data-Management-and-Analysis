@@ -10,11 +10,12 @@ Components and Flow
 
 1) Using Dataflow:
 
-
+![Earthquake_dataflow_diagram](https://github.com/user-attachments/assets/bf4fa12f-f898-4ba5-a122-e6e18d333b18)
 
 
 2) Using Dataproc:
 
+![Earthquake_dataproc_diagram](https://github.com/user-attachments/assets/d23a3703-f806-4466-874e-642828174b55)
 
 
 
